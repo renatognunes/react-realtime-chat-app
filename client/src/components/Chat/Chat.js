@@ -15,7 +15,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "https://chat-application-react-node.herokuapp.com/";
+  const ENDPOINT = "localhost:5000";
 
   useEffect(() => {
     // Parse parameters from URL as an object.
